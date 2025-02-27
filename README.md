@@ -18,3 +18,11 @@ CREATE TABLE departamentos (
     nome VARCHAR(100) NOT NULL,
     gerente_id INT
 );
+```sql
+
+Colunas:
+id: Identificador único do departamento.
+nome: Nome do departamento (ex: TI, Marketing, Recursos Humanos).
+gerente_id: ID do gerente responsável pelo departamento, referenciando a tabela empregados.
+
+
