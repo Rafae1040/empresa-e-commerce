@@ -18,8 +18,7 @@ CREATE TABLE departamentos (
     nome VARCHAR(100) NOT NULL,
     gerente_id INT
 );
-
-
+```
 
 Colunas:
 id: Identificador único do departamento.
